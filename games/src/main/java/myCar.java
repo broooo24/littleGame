@@ -18,10 +18,8 @@ public class myCar extends Car {
     public boolean isOver(String[][] enemyCar){
         for (int i = 0;i<6;i++){
             if (enemyCar[4][i]=="x"){
-                System.out.println("x");
                 if (i==this.currentColumn)return true;
             }
-            System.out.println(enemyCar[4][i]);
         }return false;
     }
 
