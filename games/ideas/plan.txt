@@ -1,0 +1,27 @@
+Description:
+	Egy autóval megyek szembe az autópályán
+	
+class Car
+	size
+	speed
+	column
+
+class myCar
+	super(car)
+	direction
+	
+	changeColumn();
+	move();	
+	init();
+	isOver();(+1 egységen belül van az ellenfél autó && ugyanabban a sorban van)
+	
+class enemyCar
+	super(car)
+	move (-1)
+	init();
+	
+	
+class Main
+	create myCar()
+	create enemyCar() <-- max 4
+	
