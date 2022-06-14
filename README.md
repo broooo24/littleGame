@@ -1,4 +1,4 @@
-# littleGame
+# Car Game
 
 **Run**
 - Download all the java file and run it from the Main.java
